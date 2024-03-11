@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICTEACH G1</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="code.html">LEARN CODE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="code2.html">PSEUDOCODE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="c++.html">Computer Programming C++</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar --> 
+<!-------Banner Start------->
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text">
+            <h2><p class="banner-text white">Computer Programming C++</p></h2>
+            <ul>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src="images/code.png" class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+  <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span> </section>
+
+<!-------Banner End-------> 
+
+    <div id="boxes">
+        <div id="leftbox">
+<h3>Computer Programming C++”
+(.Net Technology NC III)</h3>
+<br>
+<h4>Subject Description
+C++ Programming is an object-oriented computer language created by notable computer scientist 
+Bjorne Stroustrop as part of the evolution of the C family of languages. It was developed as a cross-platform improvement of C to provide developers with a higher degree of 
+control over memory and system resources.</h4>
+<br>
+<br>
+<p>Languages that Merge 
+Programming Paradigms</p>
+<br>
+<br>
+<p>Object-oriented extensions: not only C++, but dialects of Lisp (CLOS) or of Prolog (XPCE/Prolog, Prolog++).</p>
+<br>
+<br>
+<p>Logic programming combined with functional programming (very clever, but only experimental).</p>
+<br>
+<br>
+<p>Most languages are sequential: one processor, one process. Ada is a language designed to support concurrency: many processes running in parallel.
+Ipinadala mo
+Structure of a Program 
+Probably the best way to start learning a programming language is by writing a program. Therefore, here is our first program:</p>
+<br>
+<br>
+<pre><code>// my first program in C++
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello World!";
+    return 0;
+}
+</code></pre>
+<br>
+<p>// my first program in C++ 
+This is a comment line. All lines beginning with two slash signs (//) are considered comments and do not have any effect on the behavior of the program. The programmer can use them to include short explanations or observations within the source code itself. In this case, the line is a brief description of what our program is.</p>
+<br>
+<br>
+<br>
+<p>#include < iostream > --
+Lines beginning with a hash sign (#) are directives for the preprocessor. They are not regular code lines with expressions but indications for the compiler's preprocessor. In this case the directive #include tells the preprocessor to include the iostream standard file. This specific file (iostream) includes the declarations of the basic standard input-output library in C++, and it is included because its functionality is going to be used later in the program.
+Ipinadala mo
+using namespace std;
+All the elements of the standard C++ library are declared within what is called a namespace, the namespace with the name std. So in order to access its functionality we declare with this expression that we will be using these entities. This line is very frequent in C++ programs that use the standard library, and in fact it will be included in most of the source codes included in these tutorials.
+Ipinadala mo
+int main ( )
+This line corresponds to the beginning of the definition of the main function. The main function is the point by where all C++ programs start their execution, independently of its location within the source code. It does not matter whether there are other functions with other names defined before or after it - the instructions contained within this function's definition will always be the first ones to be executed in any C++ program. For that same reason, it is essential that all C++ programs have a main function.
+Ipinadala mo
+The word main is followed in the code by a pair of parentheses  ( ) . That is because it is a function declaration: In C++, what differentiates a function declaration from other types of expressions are these parentheses that follow its name. Optionally, these parentheses may enclose a list of parameters within them.
+Ipinadala mo
+Right after these parentheses we can find the body of the main function enclosed</p>
+<br>
+<br>
+<p>in braces  { } . What is contained within these braces is what the function does 
+when it is executed.
+Ipinadala mo
+cout << "Hello World!"; 
+This line is a C++ statement. A statement is a simple or compound expression that can actually produce some effect. In fact, this statement performs the only action that generates a visible effect in our first program. </p>
+<br>
+<br>
+<p>cout represents the standard output stream in C++, and the meaning of the entire statement is to insert a sequence of characters (in this case the Hello World sequence of characters) into the standard output stream (which usually is the screen).</p>
+<br>
+<p>cout is declared in the iostream standard file within the std namespace, so that's why we needed to include that specific file and to declare that we were going to use this specific namespace earlier in our code.</p>
+<br>
+<br>
+<p>Notice that the statement ends with a semicolon character ( ; ). This character is used to mark the end of the statement and in fact it must be included at the end of all expression statements in all C++ programs (one of the most common syntax errors is indeed to forget to include some semicolon after a statement).
+return 0; 
+The return statement causes the main function to finish. return may be followed 
+by a return code (in our example is followed by the return code 0). A return code of 0 for 
+the main function is generally interpreted as the program worked as expected without 
+any errors during its execution. This is the most usual way to end a C++ console program.</p>
+<br>
+<br>
+<p>you may have noticed that not all the lines of this program perform actions when the 
+code is executed. There were lines containing only comments (those beginning by //). 
+There were lines with directives for the compiler's preprocessor (those beginning by #). 
+Then there were lines that began the declaration of a function (in this case, the main function) and, finally lines with statements (like the insertion into cout), which were all included within the block delimited by the braces ({ }) of the main function.
+Ipinadala mo
+The program has been structured in different lines in order to be more readable, but in C++, we do not have strict rules on how to separate instructions in different lines. For example, instead of</p>
+<br>
+<br>
+<pre><code>int main (  )
+{
+   cout  <<  “ Hello World! ” ;
+return 0 ;
+}
+Ipinadala mo
+We could have written: 
+int main (  ) { cout  <<  “ Hello World! “ ;  return 0 ;   }
+</code></pre>
+<br>
+<p>All in just one line and this would have had exactly the same meaning as the previous code.</p>
+<br>
+<p>In C++, the separation between statements is specified with an ending semicolon (😉 at the end of each one, so the separation in different code lines does not matter at all for this purpose. We can write many statements per line or write a single statement that takes many code lines. The division of code in different lines serves only to make it more legible and schematic for the humans that may read it.</p>
+</div>
+
+        <div id="rightbox">
+        <h3>6. How to create a table in an HTML document?</h3>
+        HTML table is a HTML element and it can be defined using tag < table >
+<h3>C++ Variables</h3>
+<br>
+<br>
+<p>Variables are containers for storing data values.</p>
+<br>
+<p>In C++, there are different types of variables (defined with different keywords), for example:</p>
+<br>
+<p>int - stores integers (whole numbers), without decimals, such as 123 or -123</p>
+<br>
+<p>double - stores floating point numbers, with decimals, such as 19.99 or -19.99</p>
+<br>
+<p>char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</p>
+<br>
+<p>string - stores text, such as "Hello World". String values are surrounded by double quotes</p>
+<br>
+<p>bool - stores values with two states: true or false
+C++ Operators</p>
+<br>
+<p>Operators are used to perform operations on variables and values.
+   In the example below, we use the + operator to add together two values:
+   Example
+</p>
+<br>
+<p> int x = 100 + 50;
+   Although the + operator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or a variable and another variable:</p>
+   <br>
+   <h4>Example</h4>
+   <pre><code>
+    int sum1 = 100 + 50;        // 150 (100 + 50)
+                int sum2 = sum1 + 250;      // 400 (150 + 250)
+                int sum3 = sum2 + sum2;     // 800 (400 + 400)
+   </code></pre>
+   <br>
+   <p>Arithmatic Operators -- Arithmetic operators are used to perform common mathematical operations</p>
+   <br>
+   <h4>Example</h4>
+   <pre><code>
+     Operator	      Name	                      Description	                         Example	
+         +	        Addition	            Adds together two values	                  x + y	
+         -	        Subtraction             Subtracts one value from another	          x - y	
+         *	        Multiplication          Multiplies two values	                      x * y	
+         /	        Division	            Divides one value by another	              x / y	
+         %	        Modulus	                Returns the division remainder                x % y	
+         ++	        Increment	            Increases the value of a variable by 1	      ++x	
+         --	        Decrement	            Decreases the value of a variable by 1	      --x
+   </code></pre>
+   <br>
+   <br>
+   <p>Arithmetic operator</p>
+   <br>
+   <pre><code>
+#include <iostream>
+using namespace std;
+
+int main() {
+int x = 5;
+int y = 6;
+int sum = x + y;
+cout << sum;
+return 0;}
+</code></pre>
+<br>
+<br>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<!-- scrollIt js --> 
+<script src="js/scrollIt.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script>
+	wow = new WOW();
+	wow.init();
+$(document).ready(function(e) {
+
+	$('#video-icon').on('click',function(e){
+	e.preventDefault();
+	$('.video-popup').css('display','flex');
+	$('.iframe-src').slideDown();
+	});
+	$('.video-popup').on('click',function(e){
+	var $target = e.target.nodeName;
+	var video_src = $(this).find('iframe').attr('src');
+	if($target != 'IFRAME'){
+	$('.video-popup').fadeOut();
+	$('.iframe-src').slideUp();
+	$('.video-popup iframe').attr('src'," ");
+	$('.video-popup iframe').attr('src',video_src);
+	}
+	});
+
+	$('.slider').bxSlider({
+	pager: false
+	});
+});
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+	}else{
+	$('.navbar-logo img').attr('src','images/logo-white.png');
+	navbar.removeClass("nav-scroll");
+	}
+
+	$.scrollIt({
+	
+	easing: 'swing',      // the easing function for animation
+	scrollTime: 900,       // how long (in ms) the animation takes
+	activeClass: 'active', // class given to the active nav element
+	onPageChange: null,    // function(pageIndex) that is called when page is changed
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
+</html>
